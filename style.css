@@ -1,0 +1,75 @@
+/*START OF CODE*/
+/*FONTS & BACKGROUND*/
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+*{
+    font-family: 'Simonetta', cursive;
+}
+body{
+    background-color: white;
+    background-image: url('Photography/turningtorso.jpeg');
+    background-size: cover;
+}
+/*TEXT SETTINGS*/
+h1{
+    color: #F5EBDA;
+    background-color: #BF7C63;
+    font-size: 19px;
+    margin: 20px;
+    width: 36%;
+}
+h2{
+    color: #F5EBDA;
+    font-size: 17px;
+    margin: 20px;
+    background-color: #BF7C63;
+    width: 36%;
+}
+h3{
+    color: #E0B24E;
+    font-size: 19px;
+    margin: 20px;
+}
+h4{
+    color: #E0B24E;
+    font-size: 19px;
+    margin: 20px;
+}
+/*PICTURES*/
+img{
+    float: right;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0 4px;
+}
+/*CLICK HERE BUTTON*/
+a{
+    color: #F5EBDA;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #BF7C63;
+}
+/*ICONS*/
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    float: right;
+}
+/*FOOTER*/
+footer img{
+    width: 20px;
+    height: auto;
+}
+/*ZOOM IMAGE*/
+.zoomimage:hover{
+    transform: scale(1.5);
+}
+/*MEDIA QUERIES: FOR MOBILE PHONES*/
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+/*END OF CODE*/
